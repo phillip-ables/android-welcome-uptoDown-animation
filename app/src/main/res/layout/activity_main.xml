@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutMain"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,6 +10,7 @@
     android:background="@drawable/background_pube">
 
     <LinearLayout
+        android:id="@+id/linearLayoutTop"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:orientation="vertical">
@@ -25,6 +27,7 @@
             android:textColor="@color/lightDarkOrang"/>
 
         <TextView
+            android:id="@+id/textViewMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -45,9 +48,9 @@
             android:id="@+id/buttonCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Online Screening"
+            android:text="Get Checked Now!!"
             android:layout_gravity="center"
-            android:layout_marginTop="210dp"
+            android:layout_marginTop="140dp"
             android:background="@drawable/buttonstyle"/>
     </LinearLayout>
 
