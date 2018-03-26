@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayoutTop, linearLayoutBottom;
     Button buttonCheck;
-    Animation uptodown;
+    Animation uptodown, downtoup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutBottom = (LinearLayout) findViewById(R.id.linearLayoutBottom);
         uptodown = AnimationUtils.loadAnimation(this, R.anim.uptodown);
         linearLayoutTop.setAnimation(uptodown);
+        downtoup = AnimationUtils.loadAnimation(this, R.anim.downtoup);
+        linearLayoutBottom.setAnimation(downtoup);
     }
 }
