@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="400dp"
         android:orientation="vertical">
 
         <TextView
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="357, 000, 000"
             android:layout_gravity="center"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="180dp"
             android:textSize="60sp"
             android:textStyle="bold"
             android:textColor="@color/lightDarkOrang"/>
@@ -31,8 +31,24 @@
             android:text="STI's TRANSMITTED\nPER YEAR"
             android:textAlignment="center"
             android:textSize="30sp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
             android:textColor="@color/lightOrange"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_boob">
+        <Button
+            android:id="@+id/buttonCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Screening"
+            android:layout_gravity="center"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/buttonstyle"/>
     </LinearLayout>
 
 </LinearLayout>
